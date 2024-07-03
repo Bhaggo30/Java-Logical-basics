@@ -4,7 +4,7 @@ public class SumOfDigits {
     public static void main(String[] args) {
         int digit, sum = 0;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number: ");
+        System.out.println("Enter the number: ");
         int number = sc.nextInt();
         while(number > 0)
         {
